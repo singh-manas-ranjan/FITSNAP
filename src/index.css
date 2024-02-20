@@ -1,0 +1,216 @@
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Text:wght@400;600&family=Lato:wght@400;700&family=Poppins:wght@400;600;700&display=swap');
+
+
+p, h4, li{
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  color: #393c34;
+}
+
+.poppinsRegular{
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  .poppinsSemibold {
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+  }
+  
+  .poppinsBold {
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+  }
+
+  .lato-regular {
+    font-family: "Lato", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  .latoBold {
+    font-family: "Lato", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    color: #FDF8ED;
+  }
+
+  .crimsonRegular {
+    font-family: "Crimson Text", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  .crimsonSemibold {
+    font-family: "Crimson Text", serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 2.5rem;
+    color: #233470;
+  }
+  
+.navItems{
+    color: #FDF8ED;
+    font-family: "Lato", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+
+#loginBtn{
+    background-color: #2E2E44;
+    border-radius: 6px;
+    width: 113px;
+    height: 38px;
+}
+
+.subHeading{
+  font-size: 19px;
+  color: #100D81;
+}
+
+/* ========= exerciseDemo ====== */
+#exerciseDemo{
+  display: grid;
+  place-items: center;
+  color: #34343C;
+}
+
+#exerciseDesc{
+  width: 744.7px;
+  height: 51.4px;
+  text-align: center;
+  color: #14446F;
+  font-size: 18px;
+}
+
+.grid{
+  display: grid;
+  position: relative;
+}
+.justifyRight{
+  justify-items: right;
+}
+.justifyLeft{
+  justify-items: left;
+}
+.exerciseBenefitText{
+  width: 300px;
+  font-size: 15px;
+  position: absolute;
+  top: 40px;
+}
+
+/* ========= exerciseDemo ====== */
+
+/* ========= MobileApp ======== */
+#mobileApp{
+  margin-top: 6rem;
+  background-color: #042440;
+  width: 100%;
+  height: 375px;
+  position: relative;
+  font-family: "Crimson Text", serif;
+  font-weight: 600;
+  font-style: normal;
+  color: #fff;
+}
+
+#bottomCurve{
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  display: grid;
+  place-items: "center";
+}
+
+h1{
+  font-size: 32px;
+}
+
+h2{
+  font-size: 24px;
+}
+
+.leftContainer{
+  display: grid;
+  width: 742px;
+  height: 150px;
+  position: relative;
+  top: 70px;
+
+}
+.storeImage{
+  width: 140px;
+  height: 32px;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.applePhImg{
+  width: 268px;
+  height: 483px;
+  z-index: 99;
+  position: relative;
+}
+
+.leftPh{
+  position: absolute;
+  top: -40px;
+  right: 450px;
+}
+
+.rightPh{
+  position: absolute;
+  top: 5px;
+  right: 150px;
+}
+/* ========= MobileApp ======== */
+
+.exerciseKeyPoints{
+  color: #100D81;
+}
+
+.exerciseBenefitText{
+  width: 300px;
+  font-size: 15px;
+  position: absolute;
+  top: 40px;
+}
+
+/* ======== Footer ========= */
+#footer, #searchIconBtn{
+  background-color: #042440;
+}
+#footer{
+  margin-top: 6rem;
+  width: 100%;
+  height: 306px;
+  display: grid;
+  place-items: center;
+}
+
+#searchIconBtn{
+  border-radius: 0;
+  position:"relative";
+  top:7px;
+  right:15px;
+}
+
+.fontWhite{
+  color: #FFFF;
+}
+
+.footerHeadingFont{
+  color: #91ADC5;
+  font-family: "Crimson Text", serif;
+  font-weight: 600;
+  font-style: normal;
+}
+/* ======== Footer ========= */
+
+
